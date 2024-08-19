@@ -1,0 +1,39 @@
+:root {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: inherit;
+  background-color:  rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+.status {
+  margin-bottom: 4px;
+}
+
+.game {
+  display: flex;
+}
